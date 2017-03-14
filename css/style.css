@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.all {
+  width: 1920px;
+  height: 2383px;
+  margin: 0 auto; }
+  .all .nav {
+    width: 1920px;
+    height: 60px;
+    background: #0097cf; }
+    .all .nav .cont {
+      width: 1200px;
+      height: 60px;
+      margin: 0 auto;
+      display: -webkit-flex; }
+      .all .nav .cont p {
+        flex: 1;
+        width: 330px;
+        line-height: 60px;
+        font-size: 22px;
+        color: #fff; }
+      .all .nav .cont ul {
+        flex: 2; }
+        .all .nav .cont ul .bg {
+          background: #0088ba; }
+        .all .nav .cont ul li {
+          float: left;
+          font-size: 18px;
+          padding: 15px 24px;
+          color: #fff;
+          text-align: center; }
+          .all .nav .cont ul li i {
+            padding-right: 6px; }
+      .all .nav .cont div {
+        line-height: 60px;
+        color: #fff;
+        font-size: 18px; }
+        .all .nav .cont div a {
+          color: #31b2e3; }
+  .all .lefts {
+    width: 359px;
+    height: 2380px;
+    border-right: 1px solid #cccccc;
+    background: #fafafa;
+    float: left; }
+  .all .conts {
+    width: 1200px;
+    height: 2380px;
+    background: #fff;
+    float: left; }
+    .all .conts .inquiry {
+      height: 120px; }
+      .all .conts .inquiry form {
+        margin-top: 56px;
+        position: relative;
+        padding-left: 30px; }
+        .all .conts .inquiry form label {
+          font-size: 22px;
+          color: #0097cf;
+          padding-right: 8px; }
+        .all .conts .inquiry form i {
+          position: absolute;
+          left: 176px;
+          font-size: 28px;
+          color: #dfdfe1;
+          top: 4px; }
+        .all .conts .inquiry form .inpu {
+          width: 420px;
+          height: 40px;
+          border-color: #dfdfe1; }
+        .all .conts .inquiry form .btn {
+          width: 88px;
+          height: 42px;
+          background: #f6ac00;
+          color: #fff;
+          text-align: center;
+          font-size: 20px; }
+    .all .conts .test {
+      height: 260px; }
+      .all .conts .test dl {
+        float: left;
+        width: 190px;
+        margin-left: 30px; }
+        .all .conts .test dl dt {
+          width: 190px;
+          height: 190px;
+          border: 1px solid #cccccc;
+          text-align: center; }
+        .all .conts .test dl dd {
+          font-size: 16px;
+          text-align: center; }
+      .all .conts .test .editor {
+        float: right;
+        margin-right: 28px;
+        width: 426px;
+        height: 190px;
+        border: 1px solid #cccccc;
+        background: #fcfcfe; }
+        .all .conts .test .editor h4 {
+          width: 426px;
+          padding-left: 12px;
+          font-size: 20px;
+          color: #0097cf; }
+        .all .conts .test .editor span {
+          display: block;
+          float: left;
+          margin-top: 12px;
+          color: #818181;
+          position: relative;
+          width: 90px;
+          height: 30px;
+          border: 1px solid #a9a9a9;
+          margin-left: 14px;
+          border-radius: 4px;
+          text-align: center;
+          line-height: 30px; }
+          .all .conts .test .editor span i {
+            position: absolute;
+            top: -9px;
+            right: -9px;
+            font-size: 20px;
+            color: #f4c600;
+            display: none; }
+      .all .conts .test .system {
+        float: left;
+        width: 426px;
+        height: 190px;
+        border: 1px solid #cccccc;
+        margin-left: 40px;
+        background: #fcfcfe; }
+        .all .conts .test .system h3 {
+          width: 420px;
+          font-size: 20px;
+          padding-left: 12px;
+          color: #414141; }
+        .all .conts .test .system ul li {
+          float: left;
+          padding-left: 18px;
+          color: #818181;
+          padding-top: 6px; }
+    .all .conts .end {
+      width: 1100px;
+      height: 300px;
+      margin: 0 auto; }
+      .all .conts .end .table {
+        border: 1px solid #cccccc;
+        text-align: center; }
+        .all .conts .end .table thead tr th {
+          text-align: center; }
+        .all .conts .end .table tr td:last-child {
+          color: #42a7d6; }
+    .all .conts .reaction {
+      width: 1100px;
+      height: 420px;
+      margin: 0 auto; }
+      .all .conts .reaction h2 {
+        font-size: 24px;
+        width: 1100px;
+        border-bottom: 1px dashed #cccccc; }
+      .all .conts .reaction h3 {
+        font-size: 20px;
+        text-align: center;
+        height: 42px;
+        line-height: 42px; }
+      .all .conts .reaction .table {
+        border: 1px solid #cccccc; }
+        .all .conts .reaction .table caption {
+          margin-top: 22px; }
+        .all .conts .reaction .table tbody tr td {
+          text-align: center; }
+      .all .conts .reaction ul li {
+        float: left;
+        margin-left: 40px; }
+        .all .conts .reaction ul li p {
+          padding-top: 6px; }
+    .all .conts .swell {
+      width: 1050px;
+      height: 140px;
+      margin-left: 40px; }
+      .all .conts .swell h4 {
+        font-size: 22px;
+        border-bottom: 1px dashed #cccccc; }
+        .all .conts .swell h4 .hs {
+          width: 980px; }
+      .all .conts .swell .bloated {
+        height: 40px;
+        display: flex;
+        line-height: 40px; }
+        .all .conts .swell .bloated p {
+          flex: 1; }
+          .all .conts .swell .bloated p span {
+            padding-left: 16px; }
+    .all .conts .tabs {
+      height: 280px; }
+      .all .conts .tabs .replace {
+        width: 448px;
+        height: 240px;
+        float: right; }
+        .all .conts .tabs .replace ul li {
+          float: left;
+          padding: 6px 37px;
+          font-size: 18px;
+          background: #f8f8f8;
+          border: 1px solid #e6e6e6; }
+        .all .conts .tabs .replace ul .ss {
+          border-top: 2px solid #0097cf; }
+      .all .conts .tabs .tabulation {
+        width: 700px;
+        height: 260px;
+        margin-left: 52px;
+        float: left; }
+        .all .conts .tabs .tabulation h4 {
+          font-size: 22px;
+          border-bottom: 1px dashed #cccccc; }
+        .all .conts .tabs .tabulation .hs {
+          width: 980px; }
+        .all .conts .tabs .tabulation .fus {
+          margin-top: 20px; }
+        .all .conts .tabs .tabulation div {
+          height: 30px;
+          margin-top: 14px; }
+          .all .conts .tabs .tabulation div div {
+            width: 700px;
+            margin-left: 32px; }
+          .all .conts .tabs .tabulation div .first {
+            float: right; }
+  .all .rights {
+    float: right;
+    width: 359px;
+    height: 2380px;
+    border-left: 1px solid #cccccc;
+    background: #fafafa; }
+
+/*# sourceMappingURL=style.css.map */
